@@ -1,0 +1,86 @@
+.card {
+    width: 300px;
+    height: 350px;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 3px 13px 1px rgba(8, 8, 8, 0.315);
+    border-radius: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    animation: fadeIn 0.3s;
+   }
+ 
+   @keyframes fadeIn{
+     from {
+       opacity: 0;
+     }
+     to {
+       opacity: 1;
+     }
+   }
+ 
+   @keyframes fadeOut{
+     from {
+       opacity: 1;
+     }
+     to {
+       opacity: 0;
+     }
+   }
+
+  .card-title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    outline-color: black ;
+    outline-width: 20px;
+    text-decoration: none;
+  }
+
+  .card-title:hover{
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  #closeIcon {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+  
+  .card-body {
+    justify-content: center;
+
+  }
+
+  .max, .min, .img-clima{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .boton-x {
+    background-color: #dc3545;
+    width: 30px;
+    height: 33px;
+    border-radius: 3px;
+    margin-right: 10px;
+    border-color: #dc3545;
+    font-size: large;
+    margin-left: 280px;
+    margin-top: 11px;
+  }
+
+  button:hover{
+    transform: scale(0.95) ;
+    transition: width 1s;
+  }

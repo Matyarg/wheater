@@ -1,0 +1,16 @@
+  
+.miNav {
+  display: flex;
+  justify-content:right;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  backdrop-filter: blur(15px);
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 4px;
+}
+
+
+.barraSearch {
+
+    width: 40vw;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+}
+
+.botonAgregar {
+    height: 5vh;
+
+    display: flex;
+    float: right;
+}
