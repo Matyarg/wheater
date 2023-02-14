@@ -5,7 +5,7 @@ import Card from '../component/Card';
 export default function Cards({cities, onClose}) {
    
   return (
-    
+     
 		<div className="cards" >
 			{cities.map((c) => (
 				<Card
